@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+
+	<Button android:text="Start the Service" android:id="@+id/buttonStart"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+	</Button>
+
+	<Button android:text="Stop the Service" android:id="@+id/buttonStop"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+	</Button>
+	<Button android:text="Get Value" android:id="@+id/buttonGet"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+	</Button>
+
+	<Button android:text="Get SQL value" android:id="@+id/buttonSQL"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+	</Button>
+
+	<EditText android:text="user" android:id="@+id/editTextUser"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+	</EditText>
+	
+	<EditText android:text="password" android:id="@+id/editTextPasswd"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+	</EditText>
+	
+	<Button android:text="Http Request" android:id="@+id/buttonHTTP"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+	</Button>
+
+	<TextView android:text="" android:id="@+id/textView"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+	</TextView>
+
+	
+
+
+
+</LinearLayout>
